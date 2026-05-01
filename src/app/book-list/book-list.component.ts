@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './book-list.component.html',
   styleUrl: './book-list.component.css'
 })
-export class BookListComponent {
-
+export class BookListComponent{
+ bookTitle:string="My Book";
 }
+

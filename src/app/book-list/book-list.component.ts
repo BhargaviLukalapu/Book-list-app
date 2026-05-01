@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Book } from '../book';
 
 @Component({
   selector: 'app-book-list',
@@ -8,6 +9,6 @@ import { Component } from '@angular/core';
   styleUrl: './book-list.component.css'
 })
 export class BookListComponent{
- bookTitle:string="My Book";
+ book:Book = {id : 1,title : "Title one", author: "Author one"}
 }
 
